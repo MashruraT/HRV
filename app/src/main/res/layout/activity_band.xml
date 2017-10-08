@@ -1,0 +1,56 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/btnConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consent" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/history" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit" />
+<!--
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/btnConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consent" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+-->
+</LinearLayout>
+

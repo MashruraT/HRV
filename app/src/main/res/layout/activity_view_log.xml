@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+    <ScrollView android:id="@+id/textAreaScroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="30dp"
+        android:scrollbars="vertical">
+        <TextView
+            android:id="@+id/tvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+    </ScrollView>>
+</LinearLayout>
